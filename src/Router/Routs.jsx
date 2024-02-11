@@ -1,8 +1,8 @@
 import { createBrowserRouter } from "react-router-dom";
 import Layout from "../Layouts/Layout";
-// import Login from "../Components/Login";
-// import Register from './../Components/Register';
 import Home from "../Pages/Home";
+import Login from "../Component/Login";
+import Register from "../Component/Register";
 // import Dashboard from "../Dashboard/Dashboard";
 // import CreateTask from "../Dashboard/CreateTask";
 
@@ -40,14 +40,14 @@ const Routs = createBrowserRouter([
             // }
         ]
     },
-//     {
-//         path:'/login',
-//         element:<Login/>
-//    },
-//    {
-//        path:"/register",
-//        element:<Register/>
-//    },
+    {
+        path:'/login',
+        element:<Login/>
+   },
+   {
+       path:"/register",
+       element:<Register/>
+   },
    {
     // path:'/dashboard',
     // element:<Dashboard/>,
