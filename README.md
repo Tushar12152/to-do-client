@@ -2,7 +2,7 @@ To-Do App=============>
 
   • This to-do app has a navbar and footer  for all pages. 
 
-  • 'In navbar' has 4 pages Home,benefit,others and about pages. and right site has  a dropdown menu. dropdown menu is dynamic .if user logged in you can see dashboard and log out button and users name. otherwise without login you can see login and register btn. by clicking register you can register in this web site and can login. register page also has google and github authorization system.you can also logged in here by using gmail and git hub. after logged in you can see dashboard and logout button. by clicking logout button you will be logged out from this website. and by clicking dashboard button you can go to website's dashboard.
+  • 'In navbar' has 4 pages Home,benefit,others and about pages. and right site has  a dropdown menu. dropdown menu is dynamic .if user logged in you can see dashboard and log out button and users name. otherwise without login you can see login and register btn. by clicking register you can register in this web site and can login. register page also has google authorization system.you can also logged in here by using gmail. after logged in you can see dashboard and logout button. by clicking logout button you will be logged out from this website. and by clicking dashboard button you can go to website's dashboard.
 
   • In 'dashboard 'you can see your profile ,create new task,to-do-list,see previous task,not completed task and completed task. and a Home router. In profile you can see your profile picture ,your email and your name.
 

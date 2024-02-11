@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { AiFillEye, AiFillEyeInvisible, AiFillGithub, AiOutlineGoogle } from "react-icons/ai";
+import { AiFillEye, AiFillEyeInvisible, AiOutlineGoogle } from "react-icons/ai";
 import { Link, useNavigate } from "react-router-dom";
 
 import { imageUpload } from "../API's/ImageUpload";
@@ -187,7 +187,7 @@ const Register = () => {
 
            <div className="ml-32 flex p-2 gap-5"> 
               <button onClick={handleGooglePopup} className=" text-2xl  text-[#6069a6]"> <AiOutlineGoogle/></button>
-              <button className=" text-2xl  text-[#6069a6]"> <AiFillGithub/></button>
+             
            </div>
        </div>
     </div>
