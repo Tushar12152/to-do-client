@@ -35,12 +35,12 @@ const Dashboard = () => {
                             <li>
                                 <NavLink to="/dashboard/ongoing">
                                     
-                                ongoing list</NavLink>
+                               Not completed list</NavLink>
                             </li>
                             <li>
                                 <NavLink to="/dashboard/complete">
                                 
-                                completed list </NavLink>
+                                Completed list </NavLink>
                             </li>
                            
                         </div>
