@@ -3,6 +3,8 @@ import Layout from "../Layouts/Layout";
 import Home from "../Pages/Home";
 import Login from "../Component/Login";
 import Register from "../Component/Register";
+import Benefit from "../Component/Benifit";
+import About from "../Component/About";
 // import Dashboard from "../Dashboard/Dashboard";
 // import CreateTask from "../Dashboard/CreateTask";
 
@@ -12,9 +14,9 @@ import Register from "../Component/Register";
 // import Previous from "../Dashboard/Previous";
 // import Profile from "../Dashboard/Profile";
 // import Update from "../Dashboard/Update";
-// import Benefit from "../Components/Benifit";
+
 // import Others from "../Components/Others";
-// import About from "../Components/About";
+
 
 const Routs = createBrowserRouter([
     {
@@ -26,18 +28,18 @@ const Routs = createBrowserRouter([
                 element:<Home/>
                 
             },
-            // {
-            //     path:'/benifit',
-            //     element:<Benefit/>
-            // },
+            {
+                path:'/benifit',
+                element:<Benefit/>
+            },
             // {
             //     path:"/others",
             //     element:<Others/>
             // },
-            // {
-            //     path:'/about',
-            //     element:<About/>
-            // }
+            {
+                path:'/about',
+                element:<About/>
+            }
         ]
     },
     {

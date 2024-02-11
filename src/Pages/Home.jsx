@@ -1,13 +1,14 @@
-// import Banner from "../Components/Banner";
 
-// import Benefit from './../Components/Benifit';
+import Banner from "../Component/Banner";
+import Benefit from "../Component/Benifit";
+
 
 const Home = () => {
     return (
         <div>
-             {/* <Banner/> */}
+             <Banner/>
 
-             {/* <Benefit/> */}
+             <Benefit/>
 
           
         </div>
